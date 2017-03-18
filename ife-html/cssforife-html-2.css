@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+}
+
+h3 {
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+h4 {
+    font-size: 10px;
+    color: rgb(144, 144, 144);
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+
+th {
+    width: 500px;
+    color: white;
+    background-color: black;
+    text-align: left
+}
+
+td {
+    width: 500px;
+}
+.nav {
+    height: 60px;
+    width: auto;
+    background-color: rgb(48, 48, 48);
+}
+
+.nav-left {
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+}
+
+#baidulogo {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-right {
+    float: right;
+    width: 400px;
+    height: 60px;
+}
+
+.nav-right ul li {
+    padding-right: 20px;
+    float: right;
+    line-height: 3.5rem;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+
+.warp {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 222, 222);
+}
+
+.container {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    box-shadow: 1px 1px 1px rgb(65, 65, 65);
+}
+
+.inner-container {
+    padding: 40px 20px 40px 20px;
+}
+
+.pic-container {
+    width: 121px;
+    height: 127px;
+    border: 1px solid rgb(144, 144, 144);
+    margin: 20px;
+}
+
+.pic-container img {
+    width: 70%;
+    height: 70%;
+    padding-top: 10px;
+}
+.sidebar{
+  border-left: 2px solid rgb(205, 205, 205);
+  padding-left:20px;
+}
+
+.innerer-container{
+  margin: 44px 44px 0 44px;
+  padding-left: 400px;
+  text-align: left;
+}
+
+.innerer-container-left{
+  width: 150px;
+  float: left;
+  text-align: right;
+  padding-right: 15px
+}
+
+.innerer-container-select{
+    padding-bottom: 20px
+}
+.innerer-container-input{
+  padding-bottom: 40px;
+
+}
+
+.textarea{
+  padding: 20px 0 0 165px;
+  color: rgb(144, 144, 144);
+}
+.submitbutton{
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(51, 85, 208);
+  border-radius: 5px;
+}
+#gray-bg {
+    background-color: rgb(204, 204, 204);
+}
+.footer{
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  line-height: 6rem;
+  color: white;
+  background-color: black;
+}
